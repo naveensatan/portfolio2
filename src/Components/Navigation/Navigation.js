@@ -1,0 +1,17 @@
+import React from 'react';
+import { Link } from 'react-scroll';
+
+
+const Navigation = () => ( 
+    <nav> 
+            <div className = "nav-links" >
+                <ul >
+                    <li > <Link to = "articles" spy="true" smooth="true"> Articles </Link> </li> 
+                    <li > <Link to = "about" spy="true" smooth="true"> About </Link> </li>
+                    <li > <Link to = "portfolio" spy="true" smooth="true"> Portfolio </Link> </li>
+                </ul> 
+            </div> 
+    </nav>
+);
+
+export default Navigation;

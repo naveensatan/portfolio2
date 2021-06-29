@@ -1,0 +1,271 @@
+.App {
+    text-align: center;
+}
+
+body {
+    background-color: blueviolet;
+    margin-bottom: 10vh;
+}
+
+.logo {
+    height: 37vh;
+}
+
+.intro-container {
+    margin-top: 20vh;
+    display: flex;
+    align-items: center;
+}
+
+.intro-pic {
+    width: 110vh;
+    height: 62vh;
+}
+
+.intro-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+    height: 62vh;
+    justify-content: center;
+}
+
+.intro-text-heading {
+    color: white;
+    font-weight: bold;
+    font-size: 7vh;
+    font-variant: small-caps;
+}
+
+.intro-text-body {
+    color: white;
+    font-size: 3vh;
+    padding: 0 2vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    height: 20vh;
+    width: 100vmax;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#articles {
+    height: 17vh;
+    width: 100%;
+}
+
+.nav-links ul {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline-flex;
+    padding: 0 3vh;
+    font-size: 2.8vh;
+    font-family: monospace;
+    transition-duration: 250ms;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: blueviolet;
+    font-weight: bold;
+    position: relative;
+    transition: color .4s ease-out;
+}
+
+.nav-links a::after {
+    border-top: .115em solid blueviolet;
+    content: "";
+    position: absolute;
+    right: 100%;
+    bottom: .04em;
+    left: 0;
+    transition: right .4s cubic-bezier(0, 0.5, 0, 1);
+}
+
+.nav-links a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+.nav-links a:hover::after {
+    right: 0;
+}
+
+.social-container {
+    display: flex;
+}
+
+.social-container a {
+    padding: 0 2vh;
+    color: gray;
+}
+
+.article-card-section {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.section-title {
+    font-size: 5vh;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-body {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 1vh;
+    transition: 0.15s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4vh 8vh;
+    width: 45vh;
+    height: 60vh;
+    background-color: white;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.card-body:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-body .card-body-title {
+    font-size: 1.2vh;
+    padding-top: 15vh;
+}
+
+.card-body-img {
+    width: 45vh;
+    height: 10vh;
+}
+
+.card-body-img img {
+    width: 45vh;
+    border-radius: 1vh;
+}
+
+.card-body-content {
+    font-size: 2.5vh;
+}
+
+.card-body-button {
+    width: 45vh;
+    height: 7vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: orange;
+    border-radius: 1vh;
+    text-decoration: none;
+}
+
+.card-body-button a {
+    color: white;
+    font-weight: bold;
+    font-size: 2.8vh;
+}
+
+#about {
+    height: 17vh;
+    width: 100%;
+}
+
+.about-section-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: orange;
+}
+
+.about-content-head {
+    display: flex;
+    width: 170vh;
+    align-items: center;
+    justify-content: space-around;
+    margin: 5vh 0;
+    box-shadow: 0px 0px 3px 4px rgba(0, 0, 0, 0.19);
+}
+
+.about-content-head-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh;
+    justify-content: space-around;
+}
+
+.about-content-head-details h1 {
+    font-size: 7vh;
+}
+
+.about-content-head-details li {
+    font-size: 3vh;
+}
+
+.about-content-head h1,
+.about-content-head li {
+    color: white;
+}
+
+.author-headshot {
+    padding: 3vh;
+    width: 45vh;
+    height: 45vh;
+    vertical-align: middle;
+    border-radius: 50%;
+}
+
+.about-content-head li {
+    text-align: left;
+    line-height: 5vh;
+}
+
+.about-content-body p {
+    color: white;
+    font-size: 3vh;
+    text-align: justify;
+}
+
+.article-body-container{
+    margin-top: 25vh;
+    display: flex;
+    flex-direction: column;
+    margin: 20vh;
+}
+
+.article-body-title{
+    font-size: 3vh;
+    color: white;
+}
+
+.article-body-content{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    font-weight: bold;
+    color: white;
+    border-bottom: solid 2px white;
+}
+
+.article-body-date p{
+    color: white;
+    text-align: right;
+}

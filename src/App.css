@@ -56,6 +56,16 @@ body {
     align-items: center;
 }
 
+.header-article {
+    top: 0;
+    height: 20vh;
+    width: 100vmax;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #articles {
     height: 17vh;
     width: 100%;
@@ -107,7 +117,18 @@ body {
 
 .social-container a {
     padding: 0 2vh;
-    color: gray;
+}
+
+.social-facebook{
+    color: blue;
+}
+
+.social-twitter{
+    color: #00acee;
+}
+
+.social-linkedin{
+    color: #0e76a8;
 }
 
 .article-card-section {
@@ -244,11 +265,21 @@ body {
     text-align: justify;
 }
 
+.about-content-body h3{
+    color: white;
+}
+
+.about-content-social{
+    border-radius: 1vh;
+    background-color: white;
+    height: 6vh;
+    padding-top: 2vh;
+}
+
 .article-body-container{
-    margin-top: 25vh;
     display: flex;
     flex-direction: column;
-    margin: 20vh;
+    margin: 0 20vh 20vh;
 }
 
 .article-body-title{
@@ -257,6 +288,7 @@ body {
 }
 
 .article-body-content{
+    vertical-align: middle;
     display: flex;
     flex-direction: column;
     text-align: justify;
@@ -265,7 +297,30 @@ body {
     border-bottom: solid 2px white;
 }
 
+.article-body-container img{
+    vertical-align: middle;
+}
+
 .article-body-date p{
     color: white;
     text-align: right;
+}
+.article-body-other h3{
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.article-body-other ul{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: space-between;
+    height: 20vh;
+}
+
+.article-body-other a{
+    color: white;
+    text-decoration: none;
 }

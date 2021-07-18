@@ -14,12 +14,12 @@ const Social = () => (
             </a>
         </div>
         <div className="social-twitter-container">
-            <a href="https://twitter.com/KasunGeemitha" className="social-facebook" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/KasunGeemitha" className="social-twitter" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faTwitter} size="2x" />
             </a>
         </div>
         <div className="social-linkedin-container">
-            <a href="https://www.linkedin.com/in/kasunjith-satanarachchi-15a059bb/" className="social-facebook" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/kasunjith-satanarachchi-15a059bb/" className="social-linkedin" target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLinkedin} size="2x" />
             </a>
         </div>

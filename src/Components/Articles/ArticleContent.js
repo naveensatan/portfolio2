@@ -19,7 +19,7 @@ recommendations that can be proposed to improve inclusivity in volunteerism is
 the development of an education system which has the ability to support and accommodate 
 all differently abled people in the community.
 
-### Why is it important for these vividly skilled individuals to volunteer?
+## Why is it important for these vividly skilled individuals to volunteer?
 
 The general sympathetic perception towards the differently abled community, although out of bona fide intent, 
 has been one of the main factors that has been hindering their advancement within the society. 
@@ -31,7 +31,7 @@ However, it is the responsibility of the overall society to accommodate them as 
 
 ### What must be done to ensure an effective level of participation of marginalized and vulnerable groups?
 
-#### Accessibility
+## Accessibility
 
 When mobilizing differently abled volunteers there must be a set of reliable mechanisms in place to provide 
 them access to relevant locations during their volunteer assignments. The government has the ability to create 
@@ -39,7 +39,7 @@ rules and regulations enabling volunteer recruiting institutions to compulsorily
 and facilities before they recruit new volunteers. Disability friendly volunteering working arrangements must be identified 
 and disability friendly working environments should be encouraged.
 
-#### Sensitization
+## Sensitization
 
 It is also important to make sure that the volunteers have a welcoming environment during their tenure of work. 
 The recruiters and their co-workers can be trained to work with them under the following method. 
@@ -47,31 +47,31 @@ The government can make sure that the people who are working with differently ab
 training and are sensitive to their needs and are fully capable of working with them. Carrying out workshops for volunteers 
 in collaboration with organizations specializing on differently abled people can support this cause.
 
-#### Mandatory Quotas
+## Mandatory Quotas
 
 Differently abled volunteers are a disadvantaged group and there are certain instances where they are ill-treated because of this reason. 
 Unfortunately, this can also be seen in the Volunteering Sector too. To overcome this prejudice, the government can implement mandatory 
 quotas on recruiters to recruit a set percentage of differently abled volunteers compulsorily.
 
-#### Volunteer Competency Assessments
+## Volunteer Competency Assessments
 
 The Volunteer Secretariat can monitor the competency of these individuals to make sure that the volunteer recruiters are getting 
 the best they can obtain. Through assessing their competencies, the secretariat can also get a proper understanding of the skills, 
 strong and week points of the volunteers.
 
-#### Creating Manuals for the Employers to Deal with the Disabled
+## Creating Manuals for the Employers to Deal with the Disabled
 
 The government can get together with the experts in the relevant field and create guiding manuals or provide guidelines to 
 institutions that recruit volunteers. These manuals can also be distributed among volunteers in order to make them sensitive towards these issues.
 
-#### Online Volunteering
+## Online Volunteering
 
 The promotion of online volunteerism is considered to be one of the most effective ways of improving inclusivity. 
 Most of the members of the differently abled community have difficulties in moving from one place to another 
 frequently and this has been, for the longest time, been one of the biggest demotivators for many volunteers. 
 To overcome this barrier, it is possible for us to use Online Platforms to get individuals to volunteer.
 
-#### Encouraging Institutions that Support Disabled Volunteers
+## Encouraging Institutions that Support Disabled Volunteers
 
 Not just the volunteers, the government can also encourage institutions that recruit differently abled volunteers. 
 This can be done using online platforms such as YouTube Channels by creating videos appreciating the institutions 
@@ -190,7 +190,7 @@ together with government ministers and officials.
 
 At the centre of this year’s discussion was the role of young people in building a future without conflict and inequalities. It is crucial that they are able to better connect, and participate fully to sustain peace and bridge the gaps in the areas of gender, poverty, education, disability and political inclusion.
 
-#### Creating inclusive spaces
+## Creating Inclusive Spaces
 
 ![article03_image](https://miro.medium.com/max/1000/1*it7yQZRwfu4Ur4ucbNyeMA.jpeg)
 
@@ -236,21 +236,23 @@ Majority of Sri Lankan schools are not equipped and lack training to teach child
     
 He then enrolled himself to the Gurulugomi Maha Vidyalaya, an advanced level school supported by the ICRC. The administration was more welcoming of him, provided special washroom facilities and it is here that he completed his studies by passing the GCE Advanced Level examination with 1A and 2Bs as results. With his excellent results, he had the opportunity of entering a state university. However, due to the stringent regulations for applicants with disabilities, he was given limited subject streams to choose from. Kasunjith showed a great interest to pursue Law after having studied Logic and Political Science in school, so it was a disappointing realisation with the limited allocations for students like him. He decided to enrol himself in a private university which offered the Staffordshire University degree. It was here that he felt like he was finally accepted. 
     
-#### Greater things to come 
+## Greater things to come 
     
 After three years of hard work, he obtained an LLB with a 2nd class in law. This was the start of greater things to come. Kasunjith went on to win Mock trial mooting competitions and was also a part of the Youth Parliament of Sri Lanka from 2016-2017, where he was the Deputy Minister of International Affairs and the Representative for persons living with disabilities. 
     
 He then worked as the youth focal point for a Disability Rights Organization for three years and also has experience working as a research intern at a leading law firm. His articles in Sinhala and English have also been featured in national newspapers such as Silumina and Daily FT. It was during this period that he was fortunate to receive the opportunity to visit the Human Rights Council in Geneva, Switzerland. 
     
-#### Young Talent Programme
+## Young Talent Programme
     
 Under the ‘Talent Programme for Young Professionals with Disabilities’, globally, the United Nations Development Programme and United Nations Volunteers have designed this talent programme to enhance the employability and career prospects of young professionals with disabilities through work experience with offices and build a talent pipeline of highly qualified professionals with disabilities who can contribute to the attainment of the Sustainable Development Goals at national and global levels.
     
 As a part of this programme, UNDP’s Youth Lead’s programme saw the inclusion of a young individual with disabilities this year. When Kasunjith saw the advertisement for the programme, he completely dismissed the possibility of him being able to qualify for the position. It was his friend who prompted him to apply for the vacancy. “I couldn’t believe it when I got the call-back for an interview.” From then on, everything else just fell into place and the third batch Youth Leads came on board in August 2018.
     
-#### UNDP Youth Leads
+## UNDP Youth Leads
 
-![article05_image](http://static.ft.lk/assets/uploads/image_18dea5e65e.jpg)*UNDP Youth Leads 2018*
+![article05_image](http://static.ft.lk/assets/uploads/image_18dea5e65e.jpg) 
+                        
+*UNDP Youth Leads 2018*
     
 The UNDP Youth Leads programme was first introduced in 2015, as another step forward in opening UNDP up to young people of the country. A cohort of four dynamic young people would be chosen to work within the core areas of UNDP’s portfolio for 50% of their time – such as the governance, environment, and support teams – while the other half of their time would be spent working together as a team furthering the innovation portfolio of UNDP. 
     
@@ -258,7 +260,7 @@ Kasunjith as a part of his assignment has worked on mapping the disability secto
     
 He is proud to be the first person with disabilities in Asia to be working with UNDP as a part of this programme. His teammates describe him as a “passionate individual who does not give up”.
     
-#### Next steps
+## Next steps
 
 Kasunjith hopes to go on and complete a Masters in Disability Studies and continue to be an advocate for the rights of persons living with disabilities in Sri Lanka.
     

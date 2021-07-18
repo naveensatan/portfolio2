@@ -1,12 +1,13 @@
 import React from 'react';
 
 import HeadShot from '../../headshot.jpg';
+import Social from '../Social/Social';
 
 const About = () => (
     <>
         <div id="about"></div>
         <div>
-            <h2 className="section-title">About</h2>
+            <h2 className="section-title">A bit about the author...</h2>
         </div>
         <div className="about-section-container">
             <div className="about-content-head">
@@ -19,7 +20,10 @@ const About = () => (
                         <li>Former Member of the Youth Parliment, Sri Lanka</li>
                     </ul>
                     <div className="about-content-body">
-                        {/* <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.</p> */}
+                        <h3>Follow Kasunjith...</h3>
+                        <div className="about-content-social">
+                            <Social/>
+                        </div>
                     </div>
                 </div>
             </div>

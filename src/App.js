@@ -7,7 +7,8 @@ import {
   Switch
 } from 'react-router-dom';
 
-import Header from './Components/Header/Header';
+// import Header from './Components/Header/Header';
+import ScrollToTop from './Components/ScrolToTop';
 // import Intro from './Components/Intro/Intro';
 // import Articles from './Components/Articles/Articles';
 // import About from './Components/About/About';
@@ -20,8 +21,9 @@ function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <div className="App">
-          <Header/>
+          {/* <Header/> */}
           {/* <Intro/>
           <Articles/>
           <About/> */}

@@ -324,3 +324,37 @@ body {
     color: white;
     text-decoration: none;
 }
+
+@media screen and (max-width: 375px) {
+    .header {
+        position: fixed;
+        top: 0;
+        height: 20vh;
+        width: 375px;
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        height: 16vh;
+    }
+    .nav-links li {
+        display: inline-flex;
+        padding: 0 1vh;
+        font-size: 1.2vh;
+        font-family: monospace;
+        transition-duration: 250ms;
+    }
+    .fa-2x {
+        font-size: 1em;
+    }
+    .nav-links ul {
+        list-style-type: none;
+        padding: unset;
+        margin: unset;
+    }
+    .social-container a {
+        padding: 0 1.1vh;
+    }
+}

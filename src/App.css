@@ -342,12 +342,12 @@ body {
     .nav-links li {
         display: inline-flex;
         padding: 0 1vh;
-        font-size: 1.2vh;
+        font-size: 1.7vh;
         font-family: monospace;
         transition-duration: 250ms;
     }
     .fa-2x {
-        font-size: 1em;
+        font-size: 1.4em;
     }
     .nav-links ul {
         list-style-type: none;
@@ -441,9 +441,9 @@ body {
     .about-content-social {
         border-radius: 1vh;
         background-color: white;
-        height: 3vh;
+        height: 4vh;
         padding-top: 1vh;
-        width: 12vh;
+        width: 15vh;
         display: flex;
         justify-content: space-around;
     }

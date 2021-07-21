@@ -1,3 +1,4 @@
+
 .App {
     text-align: center;
 }
@@ -512,5 +513,42 @@ body {
 
     .card-body-content {
         padding: 0 1vh;
+    }
+
+    .header-article {
+        width: 148vw;
+    }
+
+    .article-body-container {
+        margin: 0px 0vh;
+        width: 473px;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header,
+    .intro-container,
+    .intro-pic-container,
+    .section-title,
+    .article-card-section,
+    .about-section-container,
+    .header-article,
+    .article-body-container {
+        width: 768px;
+    }
+
+    .intro-pic{
+        width: 768px;
+        height: 425px;
+    }
+
+    .article-body-container{
+        margin: unset;
+    }
+
+    .article-body-container img {
+        vertical-align: middle;
+        width: 753px;
     }
 }

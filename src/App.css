@@ -15,7 +15,9 @@ body {
 .intro-container {
     margin-top: 20vh;
     display: flex;
+    flex-wrap: unset;
     align-items: center;
+    width: 100%;
 }
 
 .intro-pic {
@@ -144,6 +146,7 @@ body {
     color: white;
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .card-body {
@@ -215,6 +218,7 @@ body {
     align-items: center;
     justify-content: space-around;
     background-color: orange;
+    width: 100%;
 }
 
 .about-content-head {
@@ -281,6 +285,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0 20vh 20vh;
+    width: 80%;
 }
 
 .article-body-title{
@@ -326,131 +331,7 @@ body {
     text-decoration: none;
 }
 
-/* @media screen and (max-width: 375px) {
-    .header {
-        position: fixed;
-        top: 0;
-        height: 20vh;
-        width: 375px;
-        background: white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .logo {
-        height: 16vh;
-    }
-    .nav-links li {
-        display: inline-flex;
-        padding: 0 1vh;
-        font-size: 1.7vh;
-        font-family: monospace;
-        transition-duration: 250ms;
-    }
-    .fa-2x {
-        font-size: 1.4em;
-    }
-    .nav-links ul {
-        list-style-type: none;
-        padding: unset;
-        margin: unset;
-    }
-    .social-container a {
-        padding: 0 1.1vh;
-    }
-
-    .intro-container {
-        margin-top: 20vh;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-    }
-
-    .intro-text-heading {
-        color: white;
-        font-weight: bold;
-        font-size: 5vh;
-        font-feature-settings: "smcp";
-        font-variant: small-caps;
-    }
-
-    .intro-text-container {
-        display: flex;
-        flex-direction: column;
-        width: 100vh;
-        height: 42vh;
-        justify-content: center;
-    }
-
-    .intro-text-body {
-        color: white;
-        font-size: 2vh;
-        padding: 0 2vh;
-        font-family: 'Courier New', Courier, monospace;
-        font-weight: 600;
-    }
-
-    .intro-pic {
-        width: 62.3vh;
-        height: 42vh;
-    }
-
-    article
-
-    .card-body {
-        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
-        border-radius: 1vh;
-        transition: 0.15s;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        margin: 2vh 0vh;
-        width: 45vh;
-        height: 60vh;
-        background-color: white;
-    }
-
-    about
-
-    .about-content-head {
-        display: flex;
-        flex-wrap: wrap;
-        width: 375px;
-        align-items: center;
-        justify-content: space-around;
-        margin: 5vh 0;
-        box-shadow: 0px 0px 3px 4px rgb(0 0 0 / 19%);
-    }
-
-    .author-headshot {
-        padding: 3vh;
-        width: 35vh;
-        height: 35vh;
-        vertical-align: middle;
-        border-radius: 50%;
-    }
-
-    .about-content-head-details h1 {
-        font-size: 3.5vh;
-    }
-
-    .about-content-head-details li {
-        font-size: 2.5vh;
-    }
-
-    .about-content-social {
-        border-radius: 1vh;
-        background-color: white;
-        height: 4vh;
-        padding-top: 1vh;
-        width: 15vh;
-        display: flex;
-        justify-content: space-around;
-    }
-} */
-
-@media  screen and (min-width: 320px) {
+@media screen and (max-width: 375px) {
     .header {
         width: 473px;
     }
@@ -497,10 +378,6 @@ body {
         width: 473px;
     }
 
-    .about-section-container {
-        width: 473px;
-    }
-
     .about-content-head {
         flex-direction: column;
         width: 75vh;
@@ -523,32 +400,5 @@ body {
         margin: 0px 0vh;
         width: 473px;
         align-items: center;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .header,
-    .intro-container,
-    .intro-pic-container,
-    .section-title,
-    .article-card-section,
-    .about-section-container,
-    .header-article,
-    .article-body-container {
-        width: 768px;
-    }
-
-    .intro-pic{
-        width: 768px;
-        height: 425px;
-    }
-
-    .article-body-container{
-        margin: unset;
-    }
-
-    .article-body-container img {
-        vertical-align: middle;
-        width: 753px;
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 
-import ArticlePic from './closeup-diverse-people-joining-their-hands.jpg';
+// import ArticlePic from './closeup-diverse-people-joining-their-hands.jpg';
 
 const ArticleCard = ({ articles }) => (
     <>
@@ -9,7 +9,7 @@ const ArticleCard = ({ articles }) => (
         <div className="card-body-container" key={key}>
             <div className="card-body">
                 <div className="card-body-img">
-                    <img src={ArticlePic} alt="card-img"></img>
+                    <img src={article.img} alt="card-img"></img>
                 </div>
                 <div className="card-body-title">
                     <h1>{article.title}</h1>
@@ -19,7 +19,7 @@ const ArticleCard = ({ articles }) => (
                 </div>
                 <Link to={`/article/${article.name}`}>
                     <div className ="card-body-button">
-                        <Link to ={`/article/${article.name}`}>Read</Link>
+                        <p to ={`/article/${article.name}`}>Read</p>
                     </div>
                 </Link>
             </div>

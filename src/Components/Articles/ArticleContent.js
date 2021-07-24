@@ -1,6 +1,14 @@
+import ArticlePic1 from './closeup-diverse-people-joining-their-hands.jpg';
+import ArticlePic3 from './article3pic.png';
+import ArticlePic2 from './Untitled design.png';
+import ArticlePic4 from './article4pic.png';
+import ArticlePic5 from './article5pic.png';
+import ArticlePic6 from './article6pic.png';
+
 const articles = [{
         name: 'article01',
         title: 'Mainstreaming Meaningful Disability Inclusion through Volunteering',
+        img: ArticlePic1,
         content: `
 This article is based on an interview conducted with Mr. Kasunjith Satanarachchi. 
 Being a part of the differently abled community and also being an advocate for 
@@ -90,6 +98,7 @@ of us in this society and be a lot more productive.
     {
         name: 'article02',
         title: 'Unlocking the potential of youth with disabilities by strengthening labour market participation',
+        img: ArticlePic2,
         content: `Persons with Disabilities are an integral component of the population. 
 The 2011 census carried out by the Department of Census and Statistics (DCS)
 records indicate that 8.7% of the total population are Persons with Disabilities. 
@@ -176,6 +185,7 @@ Kasun was awarded a Best Novice Delegate award at the NYMUN conference in 2016
     {
         name: 'article03',
         title: 'Building a future of Inclusion',
+        img: ArticlePic3,
         date: 'Apr 17, 2019',
         content: `The world is getting younger. One in five people are aged between 15 and 24. Yet, young people are often not in the places where 
     decisions are made, being at risk of exclusion and inequality. They face obstacles to political participation, are more vulnerable to 
@@ -205,6 +215,7 @@ Initiatives include improving accessibility, supplying documents in other format
     {
         name: 'article04',
         title: 'ECOSOC Youth Forum: Volunteerism key to fostering inclusion of youth and people with disabilities in sustainable development',
+        img: ArticlePic4,
         date: '15 April 2019, New York, United States',
         content: `Kasunjith Satanarachchi is the first person with disability from Asia and the Pacific region to participate during the 8th Annual Youth Forum of the UN Economic and Social Council (ECOSOC) in New York. Kasunjith travelled to the United Nations headquarters as part of Sri Lanka’s youth delegation to take part in discussions on advancing the 2030 Agenda for Sustainable Development.
 
@@ -227,6 +238,7 @@ Kasunjith is currently a UN Youth Volunteer serving as UNDP Youth Lead for Sri L
     {
         name: 'article05',
         title: 'Sky is the limit: Determined to prove everyone wrong',
+        img: ArticlePic5,
         date: 'Wednesday, 5 December 2018',
         content: `“From my younger days, I had three dreams. One of it was to have the opportunity to work as a part of the UN System. Through the Youth Leads program, I have now been able to achieve this.” 28 year old Kasunjith Satanaarachchi, sits back and reminisces of the long journey it has been to get to this point. Kasunjith is an individual living with Cerebral Palsy and while majority of persons with disabilities living in Sri Lanka choose not to pursue their studies, he was determined to prove everyone wrong
     
@@ -271,6 +283,7 @@ Kasunjith hopes to go on and complete a Masters in Disability Studies and contin
     {
         name: 'article06',
         title: 'අපි ඉල්ලන්නේ බාපු මාළු නෙවෙයි බිළී පිත්තයි',
+        img: ArticlePic6,
         date: '2 දෙසැම්බර්, 2017',
         content: `2012 වර්ෂයේ කරන ලද සංගණනයට අනුව අපේ රටේ අවුරුදු 5ට වැඩි ආබාධ සහිත වූවන්ගේ ප්‍රතිශතය සමස්ත ජනගහනයෙන් සියයට 8.7ක්, ඒ කියන්නේ ලක්ෂ 16ක් පමණ වනවා.
 කසුන්ජිත් පඩිපෙළ නැඟගෙන සම්මුඛ පරීක්ෂණය පැවැත්වෙන ශාලාව ඇති මහලට ආවේය. සිය සහතිකවල පිටපත් ගොනුවක් ඔහු අතේ විය. ඇත්තෙන්ම කසුන්ජිත්ට අවශ්‍ය දිගට කරගෙන යන රැකියාවක් නොවේ. විශ්වවිද්‍යාලයේ නීති උපාධිය සම්පූර්ණ කිරීම සඳහා අන්තර්කාලීන පුහුණුවක් ලබාගැනීම පමණි. ඒ සඳහා ඔහු පෞද්ගලික ආයතනවලට ඉල්ලුම්පත් යොමු කළේ රාජ්‍ය ආයතනයකට වඩා වැඩි විශ්වාසයක් ගොඩනඟාගන්නට හේතු සාධක තිබූ නිසාය. තමන්ගේ නම කියනු ඇසුණු කසුන්ජිත් මහත් බලාපොරොත්තු ඇතිව පරීක්ෂකවරුන් ඉදිරියට ඇදුණේය.

@@ -201,7 +201,7 @@ body {
     text-decoration: none;
 }
 
-.card-body-button a {
+.card-body-button p {
     color: white;
     font-weight: bold;
     font-size: 2.8vh;
@@ -331,7 +331,41 @@ body {
     text-decoration: none;
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
+    .header {
+        position: fixed;
+        top: 0;
+        height: 20vh;
+        width: 122vw;
+        background: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .intro-pic {
+        width: 59vw;
+        height: 44vh;
+    }
+
+    .intro-text-heading {
+        font-size: 6vh;
+    }
+
+    .intro-text-body {
+        font-size: 1em;
+    }
+
+    .intro-container {
+        margin-top: 11vh;
+    }
+
+    .card-body {
+        margin: 4vh 5vh;
+    }
+}
+
+@media screen and (max-width: 425px) {
     .header {
         width: 473px;
     }
